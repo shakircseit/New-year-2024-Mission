@@ -84,5 +84,54 @@ section{
  }
 
  /* discount section ends */
+ /* party section starts */
+ .party-section{
+    /* background-image: url('../images/Vectorrr.png'); */
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/Vectorrr.png');
+    background-size: 100% 100%;
+    height: 450px;
+ }
+ .party-container{
+    display: flex;
+    padding: 0px 90px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+ }
+ .party-text *{
+    color: white;
+ }
+ .party-text h2{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+ }
+ .party-text p{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+ }
+ .btn-join{
+    margin-top: 40px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(104, 90, 90);
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    padding: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ .party-image img{
+    padding-top: 70px;
+    width: 200px;
+    height: 320px;
+ }
+ /* party section ends */
 
 
