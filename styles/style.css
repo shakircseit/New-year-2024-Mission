@@ -168,3 +168,81 @@ section .party-invtation{
     border: none;
 }
 /* invitation section ends */
+/* new offer starts  */
+.new-offer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 10px;
+}
+.coming-offer{
+    flex: 1;
+}
+.coming-offer *{
+    margin-bottom: 12px;
+}
+.year-2024{
+    margin-top: 92px;
+}
+.year-2024 *{
+    /* margin-bottom: 12px; */
+}
+
+.year-2024{
+    flex: 1;
+}
+/* .coming-offer{
+    padding: 15px;
+} */
+.coming-offer h3{
+    color: #F00; 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.coming-offer h2{
+    font-family: Merriweather;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.coming-offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.offer-img img{
+    width: 90%;
+    border-radius: 50%;
+    border: 7px solid #F00;
+    border-style: inset;
+    padding: 9px;
+}
+.year-2024 h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+}
+.year-2024 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;   
+}
+.year-2024 img{
+    width: 40%;
+    margin-top: 30px;
+}
+
+/* new offer ends */
