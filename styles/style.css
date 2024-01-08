@@ -12,6 +12,9 @@
     margin: 0 auto;
     border: 2px solid red;
 }
+section{
+    margin-top: 60px;
+}
 /* banner starts */
 .banner-background{
     border-radius: 16px;
@@ -42,3 +45,44 @@
    text-align: center;
 }
 /* banner ends */
+ /* discount section starts */
+ .discount-container{
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+ }
+ .discount-text{
+    text-align: center;
+ }
+
+ .discount-text h1{
+    font-family: Inter;
+    color: #F00;
+    font-size: 68px;
+    font-weight: 700;
+ }
+ .discount-text p{
+    color: #F00;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    
+ }
+.discount-text h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 80x;
+}
+ .discount-image img{
+    margin-top: 20px;
+    width: 100%;
+ }
+
+ /* discount section ends */
+
+
