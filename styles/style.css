@@ -295,3 +295,58 @@ section .party-invtation{
     
 }
 /* portfolio card ends */
+/* newsLetter section starts */
+.newsletter-container{
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+.subscribe-text{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-text img{
+    width: 15%;
+}
+.subscribe-text h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe-text p{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.subscribe-form{
+    width: 60%;
+    display: flex;
+    gap:0;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#email{
+    padding: 8px 10px;
+    border: none;
+    /* outline: none; */
+    border-radius: 50px 0px 0px 50px;
+}
+#subscribe{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+}
+/* newsletter section ends */
