@@ -349,4 +349,43 @@ section .party-invtation{
     border: none;
     outline: none;
 }
+
+footer{
+    margin-top: 50px;
+    border: 2px solid green;
+    background-color:#070211;
+    color: white;
+}
+.address,.copywright{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 100px;
+}
+.address p, .copywright p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 166.667% */
+}
+.call{
+    display: flex;
+}
+.call img{
+    width:10%;
+    height:50%;
+}
+.icon{
+    width: 30%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    width: 12%;
+}
+.Unsubscribe{
+    color: white;
+    background-color: #070211;
+}
 /* newsletter section ends */
