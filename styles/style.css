@@ -350,13 +350,17 @@ section .party-invtation{
     padding: 8px 10px;
     border: none;
     outline: none;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 footer{
     margin-top: 50px;
-    border: 2px solid green;
     background-color:#070211;
     color: white;
+    padding: 10px 0px;
 }
 .address,.copywright{
     display: flex;
@@ -369,10 +373,13 @@ footer{
     font-weight: 500;
     line-height: 24px; /* 166.667% */
 }
-.call{
+
+.phone,.mail{
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
-.call img{
+.phone img, .mail img{
     width:10%;
     height:50%;
 }
@@ -389,5 +396,14 @@ footer{
 .Unsubscribe{
     color: white;
     background-color: #070211;
+    padding: 4px 6px;
+    background-color: cornflowerblue;
+    font-weight: 60px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+hr{
+    border: 1px solid cadetblue;
 }
 /* newsletter section ends */
