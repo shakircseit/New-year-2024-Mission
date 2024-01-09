@@ -287,6 +287,7 @@ section .party-invtation{
 }
 .card{
     width: 32.7%;
+    cursor: pointer;
 }
 .card img{
     width: 100%;
@@ -355,7 +356,8 @@ section .party-invtation{
     font-size: 14px;
     font-weight: 600;
 }
-
+/* newsletter section ends */
+/* footer starts */
 footer{
     margin-top: 50px;
     background-color:#070211;
@@ -405,5 +407,7 @@ footer{
 }
 hr{
     border: 1px solid cadetblue;
+    width: 83%;
+    margin: 0 auto;
 }
-/* newsletter section ends */
+/* footer Ends */
