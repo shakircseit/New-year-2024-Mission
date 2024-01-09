@@ -246,3 +246,52 @@ section .party-invtation{
 }
 
 /* new offer ends */
+/* holiday starts */
+/* holiday Ends */
+
+/* portfolio card starts */
+.portfolio-text *{
+    margin-bottom: 8px;
+}
+.portfolio-text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portfolio-text h1{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.portfoloio-card-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+     justify-content: center;
+     align-items: center;
+}
+.card{
+    width: 32.7%;
+}
+.card img{
+    width: 100%;
+}
+.card:hover{
+    transform: rotate(45deg) scale(0.7);
+    
+}
+/* portfolio card ends */
